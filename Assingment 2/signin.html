@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Style.css">
-    <title>Michael Mutigi - Strathmore Student</title>
+    <title>Michael Mutugi - Sign In</title>
 </head>
 <body>
 
     <header>
-        <h1>Welcome to the Michael Mutugi's Profile</h1>
+        <h2>Sign In</h2>
         <nav>
             <ul>
+                <li><a href="Index.html">Home</a></li>
                 <li><a href="Education.html">Education</a></li>
                 <li><a href="Hobbies.html">Hobbies</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
-            <div class="toplink">
-                <div class="toplink_right">
-                    <a href="signup.html">Sign Up</a>
-                    <a href="signin.html">Sign In</a>
-                </div>
-            </div>
         </nav>
+        
+       
     </header>
 
-    <section id="intro">
-        <p>Hello, I'm Michael Mutugi, a student at Strathmore University. This website is a glimpse into my life, education, and interests.</p><br>
-<img src="IMAGES/Mutugi.jpg" width="250" >
-        
+    <section>
+
+        <form action="calisthenics.html" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Sign In">
+        </form>
     </section>
 
     <footer>

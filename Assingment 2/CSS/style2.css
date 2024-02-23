@@ -1,0 +1,92 @@
+/* New styles for signup and signin pages */
+body {
+    background-color: rgb(102, 116, 141);
+    margin: 0;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #2417da;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a0f93;
+}
+
+section {
+    margin: 20px;
+    background-color: #8666c0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.services-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.services-table th, .services-table td {
+    border: 1px solid #fff;
+    padding: 12px;
+    text-align: left;
+    background-color: #2417da;
+    color: #fff;
+}
+
+.services-table tr:nth-child(even) {
+    background-color: #8666c0;
+}
+
+.services-table tr:hover {
+    background-color: #1a0f93;
+}
+
+
+footer {
+    background-color: #252c50;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
