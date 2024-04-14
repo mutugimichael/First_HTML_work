@@ -17,10 +17,15 @@ box-sizing: border-box;
     height: auto;
     width: 420px;
 }
+nav {
+    background-color: #252c50; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
 }
 
 nav li {
@@ -40,10 +45,22 @@ nav a {
 nav a:hover {
     color: #2417da; 
 }
-.toplink_right{
-    float:right
-    padding: 10;
+
+.toplink {
+    text-align: right; 
+    padding: 10px; 
 }
+
+.toplink .toplink_right a {
+    color: #fff; 
+    text-decoration: none; 
+    margin-left: 20px; 
+}
+
+.toplink .toplink_right a:hover {
+    text-decoration: underline; 
+}
+
 section {
     margin: 20px;
     background-color: #8666c0;
