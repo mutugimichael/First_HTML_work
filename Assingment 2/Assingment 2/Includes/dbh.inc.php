@@ -1,10 +1,14 @@
 <?php
+    require_once "constants.php";
 
-require_once "constants.php";
+$dbh = new mysqli($hostname, $hostuser, $hostpassword, $dbname);
 
-try {
-    $pdo = new PDO($dns, $dbusername, $dbpassword);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
+    
+if($db->connect_error){
+    print "Connection Failed" . connect_error;
+}else{
+    // print "Connected Successfully";
 }
+
+
+?>

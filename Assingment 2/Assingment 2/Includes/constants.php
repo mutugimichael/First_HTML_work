@@ -1,5 +1,9 @@
 <?php
-$dsn = "mysql:host=localhost;dbname=calisthenics";
-$dbusername = "root";
-$dbpassword= "";
+
+session_start();
+
+    $hostname = "localhost";
+    $hostuser = "root";
+    $hostpassword = "";
+    $dbname = "calisthenics_website_database";
 ?>

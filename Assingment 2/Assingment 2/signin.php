@@ -21,9 +21,6 @@
 
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            
-            <label for="verification_code">Verification Code:</label>
-            <input type="text" id="verification_code" name="verification_code" required>
 
             <input type="submit" value="Sign In">
         </form>

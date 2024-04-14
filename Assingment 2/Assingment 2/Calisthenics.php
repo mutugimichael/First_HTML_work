@@ -2,7 +2,7 @@
 <body>
 
     <header>
-         <h1>Michael Mutigi - Calisthenics Trainer</h1>
+         <h1>Michael Mutugi - Calisthenics Trainer</h1>
     <?php include("templates/nav.php"); ?>
     </header>
     <section id="intro">
